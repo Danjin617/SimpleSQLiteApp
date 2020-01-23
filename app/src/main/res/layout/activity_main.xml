@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/cardview_shadow_start_color"
+    android:gravity="center"
+    android:text="Library" />
+
+
+<EditText
+    android:id="@+id/Title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Book Title:" />
+
+<EditText
+    android:id="@+id/Author"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Author:" />
+
+<EditText
+    android:id="@+id/ISPN"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="ISPN:" />
+
+<EditText
+    android:id="@+id/Description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Description:" />
+
+<EditText
+    android:id="@+id/editID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="ID:" />
+
+<Button
+    android:id="@+id/addButton"
+    android:layout_width="201dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:text="Add" />
+
+<Button
+    android:id="@+id/viewUpdate"
+    android:layout_width="201dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:text="Update" />
+
+<Button
+    android:id="@+id/delete"
+    android:layout_width="201dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:text="Delete" />
+
+
+
+</LinearLayout>
